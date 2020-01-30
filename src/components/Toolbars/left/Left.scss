@@ -1,0 +1,9 @@
+.Left {
+  position: absolute;
+  top: 85px;
+  left: 0;
+  height: calc(100vh - 24px - 40px - 80px - 10px - 10px); // footer + toolbar + header + margin + padding
+  width: 30px;
+  padding: 5px 10px;
+  border-right: 1px solid #545353;
+}

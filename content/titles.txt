@@ -1,0 +1,80 @@
+== Main menu ==
+
+Page preview
+
+== Right panel ==
+
+Page manager
+Library
+Layers
+Grids
+Snap
+Effects
+Link
+Page properties
+Element properties
+
+== Top panel ==
+
+X position
+Y position
+Width
+Height
+Scale X percentage
+Scale Y percentage
+Rotation angle
+Shear X angle
+Rotate 90 o clockwise
+Rotate 90 o counter-clockwise
+Flip horizontal
+Flip vertical
+Stroke size
+Stroke style
+Align left edges
+Align horizontal centers
+Align right edges
+Align top edges
+Align vertical centers
+Align bottom edges
+Undo
+Redo
+Full screen
+
+== Left panel ==
+
+Selection tool
+Shape tools
+  Line tool
+  Rectangle tool
+  Oval tool
+  Shape tool
+Text tool
+Hotspot tool
+Photo tool
+  Photo tool
+Media tools
+  Video tool
+  Youtube tool
+  Vimeo tool
+  Flash tool
+  SoundCloud tool
+  Sound tool
+  Gallery tool
+Plugin tool
+  Raiting plugin
+  ShoutBox plugin
+  Email subscribe form tool
+  Feedback form plugin
+  Call me back form tool
+  Facebook share tool
+Rotate tool
+Free transform tool
+Navigation tools
+  Zoom tool
+  Hand tool
+Eyedroper tool
+Swap fill and stroke
+Fill
+Stroke
+Default fill and stroke
+Color properties

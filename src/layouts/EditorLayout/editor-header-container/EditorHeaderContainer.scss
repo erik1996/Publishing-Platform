@@ -1,0 +1,31 @@
+.editor-header-container {
+  height: 40px;
+  font-size: 0;
+  border-bottom: 1px solid #545353;
+
+  & > * {
+    float: left;
+  }
+
+  &__logo {
+    display: inline-block;
+    padding: 7px;
+    margin-right: 10px;
+    position: relative;
+
+    & > img {
+      width: 26px;
+    }
+
+    &::after {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 10px;
+      right: -12px;
+      width: 2px;
+      height: 20px;
+      background-color: #545353;
+    }
+  }
+}

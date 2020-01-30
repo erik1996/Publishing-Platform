@@ -1,0 +1,49 @@
+.Tool {
+    width: 30px;
+    height: 30px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: 28px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 2px;
+    border-radius: 2px;
+    background: #a2a2a2;
+    &:hover {
+        border-color: gray;
+    }
+    .child-container {
+        position: absolute;
+        z-index: 2;
+        top: 10px;
+        left: 50.5px;
+        list-style: none;
+        background: #2d2d2d;
+        padding: 3px 10px;
+        border-radius: 2px
+    }
+}
+
+// // corner arrow styles
+// .div {
+//     width: 50px;
+//     height: 50px;
+//     background-color: black;
+//     position: relative;
+// }
+// .div::after {
+//     content: '';
+//     display: inline-block;
+//     width: 0;
+//     height: 0;
+//     border: 3px solid white;
+//     position: absolute;
+//     top: 20px;
+//     left: 20px;
+//     border-top-color: transparent;
+//     border-left-color: transparent;
+//     border-bottom-right-radius: 2px;
+// }

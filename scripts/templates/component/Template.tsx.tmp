@@ -1,0 +1,14 @@
+import * as React from 'react';
+import './{{name}}.scss';
+
+export interface {{name}}Props {
+  
+}
+
+export const {{name}}: React.{{isStateful}}FC<{{name}}Props> = (props) => {
+  return {{{useMemoOpen}}}(
+    <div className="{{name}}">
+      {{name}} Component
+    </div>
+  ){{useMemoClose}};
+};
