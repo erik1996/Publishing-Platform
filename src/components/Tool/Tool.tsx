@@ -4,7 +4,7 @@ import './Tool.scss';
 export type ToolProps = {
   children?: any
   onClick?: () => void,
-  iconName?: string
+  iconName?: string,
 };
 
 const Tool: React.FC<ToolProps>  = ({ ...props }) => {
