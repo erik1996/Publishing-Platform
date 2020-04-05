@@ -1,4 +1,30 @@
-.Interface {}
+.Interface {
+    background-color: #353535;
+    .css-1yn2e29-InputColor {
+        padding: 0;
+        width: 30px;
+        height: 30px;
+    }
+    .file-tool {
+        position: relative;
+        input[type=file]::-webkit-file-upload-button {
+            cursor: pointer;
+        }
+        input {
+            cursor: pointer;
+            position: absolute;
+            top: 11px;
+            left: -1px;
+            height: 100%;
+            width: 30px;
+            opacity: 0;
+            transform: scale(1, 1.9);
+        }
+    }
+    .disable {
+        display: none;
+    }
+}
 
 // #editor {
 //     width: 100% !important;

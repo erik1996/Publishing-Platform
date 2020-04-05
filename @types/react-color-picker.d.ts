@@ -1,0 +1,1 @@
+declare module '@radial-color-picker/react-color-picker';

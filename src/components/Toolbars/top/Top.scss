@@ -1,15 +1,28 @@
 .Top {
-    height: 80px;
+    height: 115px;
     padding: 8px;
     border-bottom: 1px solid #545353;
     box-sizing: border-box;
-    width: 60%;
-    margin-left: 2%;
-    .top-row {
-        display: flex;
-        div {
-            margin: 8px 0 0 6px;
-            display: flex;
+    width: 80%;
+    margin-left: 3%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    .color-picker {
+        position: relative;
+        .sketch-picker {
+            position: absolute;
+            z-index: 1;
+            top: 51px;
         }
+        .color-content {
+            display: block;
+            width: 141px;
+            height: 24px;
+        }
+    }
+    .title {
+        color: #04a0de;
+        display: block;
+        padding-top: 3.5px;
     }
 }

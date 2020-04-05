@@ -1,12 +1,23 @@
 import * as React from 'react';
 
-const ActiveObjectContext = React.createContext(0);
+const ActiveObjectContext = React.createContext({});
 
 
 class ActiveObject extends React.Component {
+    state = {
+      activeObject: {
+        active: true
+      }
+  }
+  updateActiveObject = (activeObject: any) => {
+    this.setState({activeObject});
+  }
   render() {
     return (
-      <ActiveObjectContext.Provider value={1}>
+      <ActiveObjectContext.Provider value={{
+        activeObject: this.state.activeObject,
+        updateActiveObject: (e: any) => this.updateActiveObject(e)
+      }}>
       </ActiveObjectContext.Provider>
     );
   }
