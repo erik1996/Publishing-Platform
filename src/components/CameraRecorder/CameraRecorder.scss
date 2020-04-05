@@ -1,0 +1,81 @@
+.video-container {
+    height: 564px;
+    width: 1000px;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -500px;
+    top: 50%;
+    margin-top: -250px;
+    text-align: center;
+    border: 1px solid;
+    background: white;
+    .header {
+        height: 48px;
+        background: #e6e6e6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        h2 {
+            margin: 0;
+        }
+    }
+    button:focus {
+        outline: 0;
+    }
+    video:focus {
+        outline: 0;
+    }
+    button {
+        cursor: pointer;
+    }
+    .disable-button {
+        cursor: auto !important;
+        background-color: #00000080 !important;
+    }
+    .footer {
+        background: #e6e6e6;
+        height: 33px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        a {
+            text-decoration: none;
+            color: white;
+            background: black;
+            padding: 1.5px 7px;
+            font-size: 15px;
+        }
+        button {
+            outline: none;
+            height: 23px;
+            background: black;
+            color: white;
+            margin-right: 10px;
+            font-size: 15px;
+            border-radius: 3px;
+        }
+    }
+    .camera-content {
+        .buttons {
+            outline: none;
+            display: flex;
+            justify-content: center;
+            margin-top: 5px;
+            button {
+                width: 111px;
+                height: 30px;
+                font-size: 14px;
+                background: black;
+                color: white;
+                border-radius: 5px;
+                margin-left: 20px;
+            }
+        }
+        video {
+            height: 425px;
+            width: 850px;
+            margin: 10px 0;
+        }
+    }
+}
